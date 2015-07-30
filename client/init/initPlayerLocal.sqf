@@ -8,7 +8,7 @@ params["_playerUnit"];
 //////////////////////////////////////////////////////////////////////////////
 // COMPILE
 //////////////////////////////////////////////////////////////////////////////
-TFL_fnc_CreateOA = compile preprocessFileLineNumbers "\TheFrontLine\client\map\createOA.sqf";
+TFL_fnc_createOA = compile preprocessFileLineNumbers "\TheFrontLine\client\map\createOA.sqf";
 
 
 enableSaving [false,false];

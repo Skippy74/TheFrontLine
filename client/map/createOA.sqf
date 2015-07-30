@@ -6,7 +6,7 @@ Params:
 0: position
 1: size
 2: direction
--> _markers = [[1500,4500], [250,250], 47] call TFL_fnc_CreateOA;
+-> _markers = [[1500,4500], [250,250], 47] call TFL_fnc_createOA;
 Return:
 created markers <Array>
 ------------------------------------------------------------------------------

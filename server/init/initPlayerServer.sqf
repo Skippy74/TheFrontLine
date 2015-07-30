@@ -6,4 +6,4 @@ call from initPlayerServer.sqf (in mission pbo)
 ----------------------------------------------------------------------------*/
 params["_playerUnit"];
 _playerUnit enableSimulationGlobal false;
-_playerUnit setPos [0,0,5000];
+_playerUnit setPos [0,0,10000];

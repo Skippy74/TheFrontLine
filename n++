@@ -10,8 +10,15 @@
                     <File name="client\loadout\nato\ri.sqf" />
                 </Folder>
             </Folder>
+            <Folder name="Map">
+                <File name="client\map\createOA.sqf" />
+            </Folder>
         </Folder>
-        <Folder name="Server" />
+        <Folder name="Server">
+            <Folder name="Init">
+                <File name="server\init\initPlayerServer.sqf" />
+            </Folder>
+        </Folder>
         <Folder name="Config">
             <File name="config\cfgActions.hpp" />
             <File name="config\cfgInGameUI.hpp" />

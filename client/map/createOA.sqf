@@ -43,12 +43,10 @@ _marker = createMarkerLocal ["borderY2", _newPos];
 _marker setMarkerBrushLocal "Solid";
 _marker setMarkerSizeLocal [(_size select 0), _i];
 _return pushback _marker;
-
 {
     _x setMarkerShapeLocal "RECTANGLE";
     _x setMarkerTypeLocal "Empty"; 
     _x setMarkerColorLocal "ColorBlack";
     _x setMarkerDirLocal _dir;
 } forEach _return;
-
 _return 

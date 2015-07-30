@@ -1,0 +1,15 @@
+<NotepadPlus>
+    <Project name="TheFrontLine">
+        <Folder name="Loadout">
+            <Folder name="nato">
+                <File name="loadout\nato\ri.sqf" />
+            </Folder>
+        </Folder>
+        <Folder name="Config">
+            <File name="config\cfgActions.hpp" />
+            <File name="config\cfgInGameUI.hpp" />
+            <File name="config\cfgVehicles.hpp" />
+        </Folder>
+        <File name="config.cpp" />
+    </Project>
+</NotepadPlus>

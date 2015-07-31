@@ -14,9 +14,13 @@
             <Folder name="Map">
                 <File name="client\map\createOA.sqf" />
             </Folder>
+            <Folder name="Spawn">
+                <File name="client\spawn\spawnOnVehicle.sqf" />
+            </Folder>
         </Folder>
         <Folder name="Server">
             <Folder name="Init">
+                <File name="server\init\initServer.sqf" />
                 <File name="server\init\initPlayerServer.sqf" />
             </Folder>
         </Folder>
@@ -24,6 +28,14 @@
             <File name="config\cfgActions.hpp" />
             <File name="config\cfgInGameUI.hpp" />
             <File name="config\cfgVehicles.hpp" />
+        </Folder>
+        <Folder name="Mission">
+            <Folder name="Altis">
+                <Folder name="molos_bay">
+                    <File name="mission\altis\molos_bay\createObjectGlobal.sqf" />
+                    <File name="mission\altis\molos_bay\createObjectLocal.sqf" />
+                </Folder>
+            </Folder>
         </Folder>
     </Project>
 </NotepadPlus>

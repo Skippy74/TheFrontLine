@@ -8,9 +8,9 @@ Params:
 2: shift
 3: ctrl
 4: alt
--> (findDisplay 46) displayAddEventHandler ["KeyDown", "_this call TFL_fnc_onKeyDownMD"];
+-> EH_ID = (findDisplay 46) displayAddEventHandler ["KeyDown", "_this call TFL_fnc_onKeyDownMD"];
 Return:
-handle <Boolean> (if true override default behaviour) 
+handle <Boolean> (if set to true will override default key behaviour)
 ------------------------------------------------------------------------------
 ----------------------------------------------------------------------------*/
 params["","_key","_shift","_ctrl","_alt"];
@@ -20,3 +20,4 @@ switch _key do {
         createDialog "TFL_DIALOG_mainMenu"
     };
 };
+_handle 

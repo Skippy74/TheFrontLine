@@ -5,6 +5,7 @@ call from initPlayerLocal.sqf (in mission pbo)
 ------------------------------------------------------------------------------
 ----------------------------------------------------------------------------*/
 params["_playerUnit"];
+enableSaving [false,false];
 //////////////////////////////////////////////////////////////////////////////
 // COMPILE
 //////////////////////////////////////////////////////////////////////////////
@@ -15,5 +16,8 @@ TFL_fnc_spawnOnVehicle = compile preprocessFileLineNumbers "\TheFrontLine\client
 // INIT
 //////////////////////////////////////////////////////////////////////////////
 call compile preprocessFileLineNumbers "\TheFrontLine\version.sqf";
-
-enableSaving [false,false];
+//////////////////////////////////////////////////////////////////////////////
+// IN GAME
+//////////////////////////////////////////////////////////////////////////////
+waitUntil {!isnull (findDisplay 46)};
+TFL_EHID_keyDownMD = (findDisplay 46) displayAddEventHandler ["KeyDown", "_this call TFL_fnc_onKeyDownMD"];

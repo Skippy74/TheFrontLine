@@ -9,9 +9,10 @@ enableSaving [false,false];
 //////////////////////////////////////////////////////////////////////////////
 // COMPILE
 //////////////////////////////////////////////////////////////////////////////
-TFL_fnc_createOA = compile preprocessFileLineNumbers "\TheFrontLine\client\map\createOA.sqf";
 TFL_fnc_onKeyDownMD = compile preprocessFileLineNumbers "\TheFrontLine\client\event\onKeyDownMainDisplay.sqf";
+TFL_fnc_createOA = compile preprocessFileLineNumbers "\TheFrontLine\client\map\createOA.sqf";
 TFL_fnc_spawnOnVehicle = compile preprocessFileLineNumbers "\TheFrontLine\client\spawn\spawnOnVehicle.sqf";
+TFL_fnc_moveControl = compile preprocessFileLineNumbers "\TheFrontLine\client\ui\moveControl.sqf";
 //////////////////////////////////////////////////////////////////////////////
 // INIT
 //////////////////////////////////////////////////////////////////////////////

@@ -6,6 +6,7 @@
             <Folder name="Init">
                 <File name="client\init\initPlayerLocal.sqf" />
             </Folder>
+            <Folder name="Event" />
             <Folder name="Loadout">
                 <Folder name="Nato">
                     <File name="client\loadout\nato\ri.sqf" />
@@ -16,6 +17,9 @@
             </Folder>
             <Folder name="Spawn">
                 <File name="client\spawn\spawnOnVehicle.sqf" />
+            </Folder>
+            <Folder name="UI">
+                <File name="client\ui\moveControl.sqf" />
             </Folder>
         </Folder>
         <Folder name="Server">

@@ -1,6 +1,7 @@
 <NotepadPlus>
     <Project name="TheFrontLine">
         <File name="config.cpp" />
+        <File name="version.sqf" />
         <Folder name="Client">
             <Folder name="Init">
                 <File name="client\init\initPlayerLocal.sqf" />

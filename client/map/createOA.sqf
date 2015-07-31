@@ -8,7 +8,7 @@ Params:
 2: direction
 -> _markers = [[1500,4500], [250,250], 47] call TFL_fnc_createOA;
 Return:
-created markers <Array>
+created markers <Strings Array>
 ------------------------------------------------------------------------------
 ----------------------------------------------------------------------------*/
 params["_pos", "_size", "_dir"];

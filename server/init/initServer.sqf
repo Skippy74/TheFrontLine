@@ -1,9 +1,7 @@
 /*----------------------------------------------------------------------------
 ------------------------------------------------------------------------------
 Author: MaximeFqs
-call from initPlayerServer.sqf (in mission pbo)
+call from initServer.sqf (in mission pbo)
 ------------------------------------------------------------------------------
 ----------------------------------------------------------------------------*/
-params["_playerUnit"];
-// _playerUnit enableSimulationGlobal false;
-// _playerUnit setPos [0,0,10000];
+call compile preprocessFileLineNumbers "\TheFrontLine\mission\altis\molos_bay\createObjectGlobal.sqf"; 

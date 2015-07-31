@@ -14,5 +14,5 @@ _cString = {
     _obj setVectorUp [0,0,1];
 };
 
-// NATO Base
+// BLUFOR base
 _dat = ["Land_Cargo_HQ_V1_F","[28335.121094,25692.511719,0.308922]",0,-100,1,0,[]];call _cString;

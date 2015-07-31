@@ -5,7 +5,7 @@ move control according to coef
 Params:
 0: coef
 1: control position
--> _newPos = [[0,-20,0,0],[control pos]] call TFL_fnc_moveControl";
+-> _newPos = [[0,20,0,0],[control pos]] call TFL_fnc_moveControl;
 _newPos will be 2 editor grid down from initial control pos
 Return:
 position <Number Array>

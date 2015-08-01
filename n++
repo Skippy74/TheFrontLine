@@ -6,7 +6,9 @@
             <Folder name="Init">
                 <File name="client\init\initPlayerLocal.sqf" />
             </Folder>
-            <Folder name="Event" />
+            <Folder name="Event">
+                <File name="client\event\onKeyDownMainDisplay.sqf" />
+            </Folder>
             <Folder name="Loadout">
                 <Folder name="Nato">
                     <File name="client\loadout\nato\ri.sqf" />
@@ -19,6 +21,12 @@
                 <File name="client\spawn\spawnOnVehicle.sqf" />
             </Folder>
             <Folder name="UI">
+                <File name="client\ui\baseClass.hpp" />
+                <File name="client\ui\compassHUD.hpp" />
+                <File name="client\ui\compassHUD.sqf" />
+                <File name="client\ui\config.hpp" />
+                <File name="client\ui\define.hpp" />
+                <File name="client\ui\drawCompass.sqf" />
                 <File name="client\ui\moveControl.sqf" />
             </Folder>
         </Folder>

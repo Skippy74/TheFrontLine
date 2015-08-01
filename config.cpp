@@ -10,3 +10,4 @@ class CfgPatches {
 #include "config\cfgActions.hpp"
 #include "config\cfgInGameUI.hpp"
 #include "config\cfgVehicles.hpp"
+#include "client\ui\config.hpp"
